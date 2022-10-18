@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "target": "ESNext",
+    "strict": true
+  },
+  "include": ["./src/Bridge.ts"],
+  "typedocOptions": {
+    "entryPoints": ["./src/Bridge.ts"],
+    "out": "docs",
+    "readme": "none"
+  }
+}

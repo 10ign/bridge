@@ -1,0 +1,35 @@
+{
+  "name": "@10ign/bridge",
+  "version": "1.0.0",
+  "description": "Bridge utility",
+  "main": "dist/Bridge.js",
+  "source": "src/Bridge.ts",
+  "types": "dist/Bridge.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:10ign/bridge.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "10ign",
+    "bridge"
+  ],
+  "author": "Bruno Alves de Faria",
+  "license": "MIT",
+  "dependencies": {
+    "@10ign/common-types": "^1.0.17",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "ts-jest": "^29.0.3",
+    "typedoc": "^0.23.16"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "docs": "typedoc"
+  }
+}
