@@ -19,7 +19,7 @@
   "author": "Bruno Alves de Faria",
   "license": "MIT",
   "dependencies": {
-    "@10ign/common-types": "^1.0.17",
+    "@10ign/common-types": "^1.0.18",
     "typescript": "^4.8.4"
   },
   "devDependencies": {

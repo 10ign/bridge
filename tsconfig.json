@@ -7,7 +7,8 @@
     "sourceMap": true,
     "outDir": "dist",
     "rootDir": "./src",
-    "target": "ESNext",
+    "target": "ES2016",
+    "module": "CommonJS",
     "strict": true
   },
   "include": ["./src/Bridge.ts"],
